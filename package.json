@@ -1,0 +1,23 @@
+{
+  "name": "singles",
+  "version": "1.0.0",
+  "description": "Singles website for tagomagoband.com",
+  "main": "test/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagomagoband/singles.git"
+  },
+  "author": "tagomagoband",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tagomagoband/singles/issues"
+  },
+  "homepage": "https://github.com/tagomagoband/singles#readme",
+  "devDependencies": {
+    "electron": "^19.0.4"
+  }
+}
