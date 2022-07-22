@@ -23,6 +23,20 @@ window.onload = () => {
   const mwAppleLink = 'https://music.apple.com/es/album/my-way-single/1634181283';
   const mwYt_videoLink = 'https://youtu.be/1KW6La6Mob0';
 
+  // First click
+  spoti.onclick = () => {
+    window.open(mwSpotiLink);
+  }
+  yt.onclick = () => {
+    window.open(mwYtLink);
+  }
+  apple.onclick = () => {
+    window.open(mwAppleLink);
+  }
+  yt_video.onclick = () => {
+    window.open(mwYt_videoLink);
+  }
+
   // Get cookies
   const getCookie = (cname) => {
     let name = cname + '=';
@@ -83,7 +97,6 @@ window.onload = () => {
         singleImg.style.opacity = 1;
       }, 100);
     }, 500);
-    
   }
 
   const buttons = document.getElementsByClassName('arrowCircle');
